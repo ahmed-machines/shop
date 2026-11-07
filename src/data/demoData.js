@@ -27,7 +27,7 @@ const rawProducts = [
 
   // ----- Fashion -----
   { name: 'Velocity Street Sneakers', category: 'fashion', price: 120.0, discount: 0, rating: 4.7, stock: 45, sales: 365, daysAgo: 6, image: 'velocity-sneakers', description: 'Lightweight everyday sneakers with a cushioned sole, breathable mesh upper and bold colour-block design.' },
-  { name: 'Alpine Puffer Jacket', category: 'fashion', price: 189.0, discount: 30, rating: 4.6, stock: 28, sales: 220, daysAgo: 50, image: 'alpine-jacket', description: 'Warm, water-resistant puffer jacket with recycled insulation and a packable hood.' },
+  { name: 'Urban Leather Jacket', category: 'fashion', price: 189.0, discount: 30, rating: 4.6, stock: 28, sales: 220, daysAgo: 50, image: 'urban-leather-jacket', description: 'Classic biker-style leather jacket with a soft lining, zip pockets and a timeless slim fit.' },
   { name: 'Aviator Classic Sunglasses', category: 'fashion', price: 79.0, discount: 0, rating: 4.3, stock: 70, sales: 190, daysAgo: 25, image: 'aviator-sunglasses', description: 'Polarised UV400 sunglasses with a lightweight metal frame that suits every face shape.' },
   { name: 'Metro Everyday Backpack', category: 'fashion', price: 69.0, discount: 10, rating: 4.5, stock: 55, sales: 250, daysAgo: 12, image: 'metro-backpack', description: 'Water-repellent 22L backpack with a padded laptop sleeve, hidden pocket and ergonomic straps.' },
   { name: 'Essential Cotton T-Shirt', category: 'fashion', price: 29.0, discount: 0, rating: 4.4, stock: 150, sales: 600, daysAgo: 3, image: 'cotton-tshirt', description: 'Soft 100% organic cotton tee with a relaxed fit. Pre-washed so it stays soft and keeps its shape.' },

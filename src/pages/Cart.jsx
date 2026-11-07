@@ -3,7 +3,7 @@ import { Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react'
 import { useCart } from '../context/CartContext'
 import OrderSummary from '../components/OrderSummary'
 import { EmptyState } from '../components/Feedback'
-import { FALLBACK_IMAGE, FREE_SHIPPING_THRESHOLD, formatPrice } from '../services/helpers'
+import { FALLBACK_IMAGE, FREE_SHIPPING_THRESHOLD, formatPrice } from '../utils/helpers'
 
 export default function Cart() {
   const { items, subtotal, shipping, total, updateQuantity, removeFromCart, clearCart } = useCart()

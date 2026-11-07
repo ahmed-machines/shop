@@ -4,7 +4,7 @@ import { DollarSign, Package, ShoppingBag, Users } from 'lucide-react'
 import { getDashboardStats } from '../services/orderService'
 import { ErrorMessage, Loader } from '../components/Feedback'
 import { StatusBadge } from '../components/OrderDetails'
-import { formatDate, formatPrice } from '../services/helpers'
+import { formatDate, formatPrice } from '../utils/helpers'
 
 export default function Dashboard() {
   const [stats, setStats] = useState(null)

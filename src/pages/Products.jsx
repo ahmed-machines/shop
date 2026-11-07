@@ -5,7 +5,7 @@ import ProductCard from '../components/ProductCard'
 import SearchBar from '../components/SearchBar'
 import { EmptyState, ErrorMessage, Loader } from '../components/Feedback'
 import useUrlParam from '../hooks/useUrlParam'
-import { getFinalPrice } from '../services/helpers'
+import { getFinalPrice } from '../utils/helpers'
 
 export default function Products() {
   const { products, categories, loading, error } = useCatalog()

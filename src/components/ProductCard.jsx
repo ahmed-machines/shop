@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext'
 import { useFavorites } from '../context/FavoritesContext'
 import { useAuth } from '../context/AuthContext'
 import { useToast } from '../context/ToastContext'
-import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../services/helpers'
+import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../utils/helpers'
 
 // One reusable card, used on the home page, products page and related products.
 export default function ProductCard({ product }) {

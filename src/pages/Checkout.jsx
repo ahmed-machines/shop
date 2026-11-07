@@ -7,7 +7,7 @@ import { placeOrder } from '../services/orderService'
 import FormField from '../components/FormField'
 import OrderSummary from '../components/OrderSummary'
 import { EmptyState, ErrorMessage, SetupNotice } from '../components/Feedback'
-import { formatPrice } from '../services/helpers'
+import { formatPrice } from '../utils/helpers'
 
 export default function Checkout() {
   const { user, profile } = useAuth()

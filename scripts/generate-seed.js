@@ -1,7 +1,7 @@
 // Generates supabase/03_seed.sql from the demo catalog.
 // Run with:  node scripts/generate-seed.js
 import { writeFileSync } from 'node:fs'
-import { demoCategories, demoProducts } from '../src/services/demoData.js'
+import { demoCategories, demoProducts } from '../src/data/demoData.js'
 
 const q = (text) => `'${String(text).replace(/'/g, "''")}'`
 

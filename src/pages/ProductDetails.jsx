@@ -8,7 +8,7 @@ import { EmptyState, ErrorMessage, Loader } from '../components/Feedback'
 import { useCart } from '../context/CartContext'
 import { useFavorites } from '../context/FavoritesContext'
 import { useToast } from '../context/ToastContext'
-import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../services/helpers'
+import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../utils/helpers'
 
 export default function ProductDetails() {
   const { id } = useParams() // the :id part of the URL

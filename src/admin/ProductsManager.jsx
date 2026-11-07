@@ -14,7 +14,7 @@ import Modal from '../components/Modal'
 import FormField from '../components/FormField'
 import SearchBar from '../components/SearchBar'
 import { ErrorMessage, Loader } from '../components/Feedback'
-import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../services/helpers'
+import { FALLBACK_IMAGE, formatPrice, getFinalPrice } from '../utils/helpers'
 
 const emptyForm = {
   name: '', description: '', price: '', discount_percent: '0',

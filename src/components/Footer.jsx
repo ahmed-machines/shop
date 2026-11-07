@@ -1,5 +1,6 @@
+import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom'
-import { Globe, Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin, Phone } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -7,9 +8,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <Link to="/" className="logo logo-light">
-            <span className="logo-mark">
-              <Globe size={20} />
-            </span>
+            <img src={logo} alt="" className="logo-mark" />
             Shop<span>Sphere</span>
           </Link>
           <p>Quality products, fair prices and fast delivery. Your world of shopping in one place.</p>

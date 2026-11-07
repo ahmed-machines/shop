@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext'
 import { getMyOrders } from '../services/orderService'
 import { EmptyState, ErrorMessage, Loader, SetupNotice } from '../components/Feedback'
 import OrderDetails, { StatusBadge } from '../components/OrderDetails'
-import { formatDate, formatPrice } from '../services/helpers'
+import { formatDate, formatPrice } from '../utils/helpers'
 
 export default function MyOrders() {
   const { user } = useAuth()

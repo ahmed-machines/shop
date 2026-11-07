@@ -85,11 +85,14 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="hero-image">
-            <img
-              src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1000&h=800&q=80"
-              alt="Shopping bags and products"
-            />
+          <div className="hero-collage">
+            <img className="collage-main" src="/images/products/aurora-headphones.jpg" alt="Aurora Wireless Headphones" />
+            <img className="collage-top" src="/images/products/velocity-sneakers.jpg" alt="Velocity Street Sneakers" />
+            <img className="collage-bottom" src="/images/products/pulse-smartwatch.jpg" alt="Pulse Smart Watch" />
+            <div className="collage-badge">
+              <strong>Up to 30% off</strong>
+              <span>On selected items</span>
+            </div>
           </div>
         </div>
       </section>
@@ -136,18 +139,21 @@ export default function Home() {
           {/* ---------- Promotional banners ---------- */}
           <section className="container promo-grid">
             <Link to="/products?category=electronics" className="promo promo-purple">
+              <img className="promo-image" src="/images/banners/promo-tech.jpg" alt="" />
               <span className="promo-tag">Up to 25% off</span>
               <h3>Smart tech deals</h3>
               <p>Headphones, earbuds and speakers for less.</p>
               <span className="link-arrow">Shop electronics <ArrowRight size={16} /></span>
             </Link>
             <Link to="/products?category=fashion" className="promo promo-orange">
+              <img className="promo-image" src="/images/banners/promo-fashion.jpg" alt="" />
               <span className="promo-tag">Winter essentials</span>
               <h3>Fashion up to 30% off</h3>
               <p>Jackets, sneakers and everyday style.</p>
               <span className="link-arrow">Shop fashion <ArrowRight size={16} /></span>
             </Link>
             <Link to="/products?category=home-living" className="promo promo-green">
+              <img className="promo-image" src="/images/banners/promo-home.jpg" alt="" />
               <span className="promo-tag">Free shipping over $100</span>
               <h3>Refresh your home</h3>
               <p>Lighting, decor and comfort pieces.</p>

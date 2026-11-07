@@ -1,5 +1,6 @@
+import logo from '../assets/logo.svg'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { ExternalLink, Globe, LayoutDashboard, LogOut, Package, ShoppingBag, Tags } from 'lucide-react'
+import { ExternalLink, LayoutDashboard, LogOut, Package, ShoppingBag, Tags } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { SetupNotice } from '../components/Feedback'
 
@@ -24,7 +25,7 @@ export default function AdminLayout() {
     <div className="admin">
       <aside className="admin-sidebar">
         <div className="logo logo-light">
-          <span className="logo-mark"><Globe size={20} /></span>
+          <img src={logo} alt="" className="logo-mark" />
           Shop<span>Sphere</span>
         </div>
         <span className="admin-label">Admin panel</span>

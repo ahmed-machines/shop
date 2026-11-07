@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react'
-import { calculateShipping, getFinalPrice } from '../services/helpers'
+import { calculateShipping, getFinalPrice } from '../utils/helpers'
 
 // Context API lets any component read the cart without passing props through every level.
 const CartContext = createContext(null)

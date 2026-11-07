@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import logo from '../assets/logo.svg'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { Globe, LogOut, Menu, ShoppingCart, User, X } from 'lucide-react'
+import { LogOut, Menu, ShoppingCart, User, X } from 'lucide-react'
 import SearchBar from './SearchBar'
 import { useAuth } from '../context/AuthContext'
 import { useCart } from '../context/CartContext'
@@ -33,9 +34,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-mark">
-            <Globe size={20} />
-          </span>
+          <img src={logo} alt="" className="logo-mark" />
           Shop<span>Sphere</span>
         </Link>
 

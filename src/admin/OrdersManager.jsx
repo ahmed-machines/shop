@@ -5,7 +5,7 @@ import { useToast } from '../context/ToastContext'
 import SearchBar from '../components/SearchBar'
 import OrderDetails, { StatusBadge } from '../components/OrderDetails'
 import { ErrorMessage, Loader } from '../components/Feedback'
-import { ORDER_STATUSES, formatDate, formatPrice } from '../services/helpers'
+import { ORDER_STATUSES, formatDate, formatPrice } from '../utils/helpers'
 
 export default function OrdersManager() {
   const { showToast } = useToast()

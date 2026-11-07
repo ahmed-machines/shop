@@ -1,4 +1,4 @@
-import { FALLBACK_IMAGE, formatPrice } from '../services/helpers'
+import { FALLBACK_IMAGE, formatPrice } from '../utils/helpers'
 
 export function StatusBadge({ status }) {
   return <span className={`status status-${status}`}>{status}</span>

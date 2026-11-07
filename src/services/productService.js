@@ -1,6 +1,6 @@
 import { supabase, SETUP_MESSAGE } from './supabase'
-import { demoCategories, demoProducts } from './demoData'
-import { makeSlug } from './helpers'
+import { demoCategories, demoProducts } from '../data/demoData'
+import { makeSlug } from '../utils/helpers'
 
 // Every function here either returns data or throws an Error with a readable message.
 // Pages catch the error and show it to the user.

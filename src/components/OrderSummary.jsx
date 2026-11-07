@@ -1,4 +1,4 @@
-import { formatPrice } from '../services/helpers'
+import { formatPrice } from '../utils/helpers'
 
 // Price breakdown shared by the Cart and Checkout pages.
 export default function OrderSummary({ subtotal, shipping, total, children }) {
